@@ -1,0 +1,51 @@
+.zdjencie{
+  width:  100% !important;
+  height: 100% !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: 0px !important;
+  display: block;
+}
+
+body{
+  margin: 0px 0px 0px 0px;
+  scroll-direction: vertical;
+}
+
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+h1{
+  font-size: 10rem;
+  color: white;
+  font-family: 'Gochi Hand', cursive;
+  text-shadow: 2px 2px  black;
+}
+
+.one{
+  background-image: url("clean1.jpg");
+}
+.two{
+  background-image: url("clean2.jpg");
+}
+.three{
+  background-image: url("clean3.jpg");
+}
+.four{
+  background-image: url("clean4.jpg");
+}
