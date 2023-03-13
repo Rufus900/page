@@ -63,4 +63,10 @@ h1{
   .four{
     background-image: url("clean8.jpg");
   }
+  .container{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    scrollbar-width: 0;
+    overflow-y: scroll;
+}
 }
