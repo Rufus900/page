@@ -50,3 +50,7 @@ h1{
 .four{
   background-image: url("clean4.jpg");
 }
+@media{
+  background-size: 100%;
+}
+
